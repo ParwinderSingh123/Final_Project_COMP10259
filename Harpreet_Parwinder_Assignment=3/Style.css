@@ -1,0 +1,78 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(201, 204, 206, 0.9176470588);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #090a0b;
+  color: #fff;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#container {
+  padding: 14px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.intro-img {
+  width: 45%;
+}
+
+.intro-content {
+  width: 50%;
+}
+
+header {
+  background-color: #090a0b;
+  color: yellow;
+  padding: 20px 20px;
+  text-align: center;
+}
+header nav a {
+  color: yellow;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+header nav a:hover {
+  color: white;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkred;
+}
+
+#contact form {
+  border: 2px dashed blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button::after {
+  content: attr(name);
+  text-transform: uppercase;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
